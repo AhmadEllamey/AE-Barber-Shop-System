@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="batik-gvt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jasper/lib/batik-gvt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

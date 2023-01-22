@@ -1,0 +1,101 @@
+
+
+
+
+/* this is how you can use a css file and style your project */
+/* ToDo Welcome TO The CSS Way  */
+
+
+.button {
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-color: black;
+}
+
+
+
+#SpecialTabPane .tab *.tab-label {
+    -fx-rotate: 90;
+}
+
+#SpecialTabPane .tab {
+    -fx-padding: 3em -2em 3em -2em;
+
+}
+
+#SpecialTabPane .tab-pane .tab-header-area {
+    -fx-padding: 0 0 20 0;
+}
+
+#SpecialTabPane .tab-pane{
+    -fx-padding: 0 0 20 0;
+}
+
+
+#SpecialTabPaneX .tab *.tab-label {
+    -fx-rotate: 0;
+}
+
+#SpecialTabPaneX .tab {
+    -fx-padding: 0.5em 1em 0.5em 1em;
+}
+
+
+#SpecialTabPaneX.tab-pane .tab-header-area {
+    -fx-padding: 0 0 0 0;
+}
+
+#SpecialTabPaneX.tab-pane{
+    -fx-padding: 0 0 0 0;
+}
+
+
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-border-radius: 20px;
+    /*-fx-border-color: -fx-disabled-opacity;*/
+    -fx-background-radius: 20;
+
+
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-effect: null;
+    -fx-background-color: lightblue;
+
+}
+
+
+
+.tab:selected {
+//-fx-background-color: -fx-tab-border-color, -fx-control-inner-background;
+    -fx-background-color: lightblue;
+    -fx-background-insets: 0, 1 1 0 1;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0;
+
+}
+
+.tab:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.tab:disabled:hover {
+    -fx-color: -fx-base;
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="batik-anim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jasper/lib/batik-anim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

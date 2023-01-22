@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mondrian-3.1.1.12687">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jasper/lib/mondrian-3.1.1.12687.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

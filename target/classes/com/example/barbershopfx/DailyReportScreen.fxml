@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.barbershopfx.DailyReport.DailyReportScreen">
+   <children>
+      <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="134.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <VBox alignment="TOP_CENTER" spacing="25.0">
+               <children>
+                  <Label text="التقرير اليومي">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <children>
+                        <JFXTextField fx:id="depositText" alignment="TOP_RIGHT" editable="false" labelFloat="true" prefColumnCount="20" promptText="الايداع اليومي">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label text="الايداع">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="145.0" layoutY="10.0" text="***">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="withdrawText" alignment="TOP_RIGHT" editable="false" labelFloat="true" layoutX="10.0" layoutY="10.0" prefColumnCount="20" promptText="السحب اليوم">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="612.0" layoutY="52.0" text="السحب">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="105.0" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <children>
+                        <JFXTextField fx:id="paidTodayText" alignment="TOP_RIGHT" editable="false" labelFloat="true" layoutX="10.0" layoutY="10.0" prefColumnCount="20" promptText="الرواتب اليوم">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="612.0" layoutY="52.0" text="اجمالي الرواتب المدفوعه اليوم">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="230.0" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <children>
+                        <JFXTextField fx:id="totalSellsText" alignment="TOP_RIGHT" editable="false" labelFloat="true" layoutX="10.0" layoutY="10.0" prefColumnCount="20" promptText="اجمالي المبيعات">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="612.0" layoutY="52.0" text="اجمالي المبيعات اليوم">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="355.0" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <children>
+                        <JFXTextField fx:id="totalLoseText" alignment="TOP_RIGHT" editable="false" labelFloat="true" layoutX="10.0" layoutY="10.0" prefColumnCount="20" promptText="اجمالي البيع بالنقاط و الاسترجاع">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="612.0" layoutY="52.0" text="اجمالي البيع بالنقاط و الاسترجاع">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="105.0" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <children>
+                        <JFXTextField fx:id="totalExpensesText" alignment="TOP_RIGHT" editable="false" labelFloat="true" promptText="الايداع اليومي">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label text="النفقات اليوم :">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="145.0" layoutY="10.0" text="***">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="totalIncomeText" alignment="TOP_RIGHT" editable="false" labelFloat="true" layoutX="10.0" layoutY="10.0" promptText="الربح اليومي">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="612.0" layoutY="52.0" text="الربح اليومي :">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="604.0" spacing="25.0">
+                     <children>
+                        <Label layoutX="145.0" layoutY="10.0" text="ملاحظه : هذه الحسابات لا تشمل حركات الموظفين من سحب و ايداع">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="604.0" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                     <children>
+                        <JFXButton buttonType="RAISED" onAction="#printFunction" prefWidth="150.0" text="طباعه" textAlignment="CENTER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="912.0" layoutY="48.0" onAction="#doneFunction" prefWidth="150.0" text="تم" textAlignment="CENTER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </ScrollPane>
+   </children>
+</AnchorPane>

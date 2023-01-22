@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jpa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jasper/lib/jpa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
